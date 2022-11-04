@@ -1,0 +1,92 @@
+.card-index {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .card-index1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 500px;
+  }
+  
+  .card-index2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-right: 500px;
+  }
+  
+  .greg {
+    height: 75vh;
+  }
+
+  .bg-card {
+    background-color: #7F4F24;
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 320px;
+  }
+  
+  .w_img {
+    width: 420px;
+  }
+  
+  .border-card {
+    background-color: #936639;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pin {
+    background-color: #A68A64;
+    padding: 9px 49px;
+    margin: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: "Volkhov", serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+.pin {
+  &:hover {
+    background-color:rgb(104, 39, 9);
+  }
+}
+  .color-conec {
+    color: rgb(7, 6, 4);
+    font-family: "Volkhov", serif;
+    margin: 10px;
+  }
+  
+  .carasg-img {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .w-img {
+    width: 230px;
+    height: 230px;
+  }

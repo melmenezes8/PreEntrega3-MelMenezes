@@ -1,0 +1,293 @@
+@charset "UTF-8";
+* ¨ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Volkhov", serif;
+}
+
+/*----fondo de Home----*/
+.tacita {
+  background-image: url(../media/images/fondito.jpg);
+}
+
+/*----fondo del shop----*/
+.cups {
+  background-image: url(../media/images/nescafe.jpg);
+}
+
+/*----fondo de sucursales----*/
+.company {
+  background-image: url(../media/images/4tipos.jpg);
+}
+
+/*----fondo nosotros----*/
+.co-worker {
+  background-image: url(../media/images/worker.jpg);
+}
+
+/*----fondo de capsule----*/
+.capsule {
+  background-image: url(../media/images/cal2.jpg);
+}
+
+/*------header------*/
+.clase-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(104, 39, 9);
+  flex-direction: row;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo p {
+  margin: 10px;
+}
+
+.clase-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.clase-ul li {
+  margin: 10px;
+  font-family: "Volkhov", serif;
+}
+
+.cctitle {
+  /*---- esto es la letra de mi logo----*/
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.color-home {
+  /*------color de mis navegadores----*/
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.color-shop {
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.color-sucur {
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.color-staff {
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.color-coffe {
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+/*--------------fin del header---------------*/
+/*------------------INICIO DE MI INDEX-------------*/
+/*--------------inicio de main--------*/
+.card-index {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card-index1 {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 500px;
+}
+
+.card-index2 {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-right: 500px;
+}
+
+.greg {
+  height: 75vh;
+}
+
+/*-----GRIDS-----*/
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.conteiner2 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+/*----GRIDS-----*/
+.bg-card {
+  background-color: #7F4F24;
+  padding: 9px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 320px;
+}
+
+.w_img {
+  width: 420px;
+}
+
+.border-card {
+  background-color: #936639;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pin {
+  background-color: #A68A64;
+  padding: 9px 49px;
+  margin: 20px;
+  border-color: transparent;
+  border-radius: 10px;
+  font-family: "Volkhov", serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pin:hover {
+  background-color: rgb(104, 39, 9);
+}
+
+.color-conec {
+  color: rgb(7, 6, 4);
+  font-family: "Volkhov", serif;
+  margin: 10px;
+}
+
+.carasg-img {
+  width: 230px;
+  height: 230px;
+}
+
+.w-img {
+  width: 230px;
+  height: 230px;
+}
+
+/*-----------------FIN DE MI INDEX-------------*/
+/*------------------fin de main----------------*/
+/*-----footer-----*/
+.bg-footer {
+  background-color: rgb(104, 39, 9);
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bg-footerindex {
+  background-color: rgb(104, 39, 9);
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 800px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.redes {
+  text-align: end;
+  width: 100%;
+}
+
+.redes a:hover {
+  color: black;
+  transition: 0.8s;
+}
+
+.derechos {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/*-----fin de footer-----*/
+/*-----------animaciones-----------*/
+.border-card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/*------ fin de mis animaciones-----*/
+/*-------------responsive-----------------*/
+@media (max-width: 480px) {
+  .clase-header {
+    flex-direction: column;
+  }
+}
+.card-index1 {
+  display: flex;
+  margin: 0;
+  padding-left: 2.7em;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .card-index1 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

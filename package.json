@@ -1,0 +1,25 @@
+{
+  "name": "coffee-time-menezes",
+  "version": "1.0.0",
+  "description": "mi primer sass ",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/main.scss css/estilos.css",
+    "watch": "sass scss/main.scss css/estilos.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+ "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melmenezes8/2PreEntregaMelMenezes.git"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Melina Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melmenezes8/2PreEntregaMelMenezes/issues"
+  }
+}
