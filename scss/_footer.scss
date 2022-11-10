@@ -1,6 +1,6 @@
 /*-----footer-----*/
 .bg-footer {
-    background-color: rgb(104, 39, 9);
+    background-color: $base-color;
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -12,7 +12,7 @@
   }
   
   .bg-footerindex {
-    background-color: rgb(104, 39, 9);
+    background-color: $base-color;
     padding: 0;
     display: flex;
     justify-content: space-around;

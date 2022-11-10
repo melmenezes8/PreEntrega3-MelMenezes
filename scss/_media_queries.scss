@@ -17,3 +17,26 @@
       align-items: center;
     }
   }
+
+  @media screen and (min-width: 320px) and (max-width: 375px) {
+    .clase-header {
+      flex-direction: column;
+      align-items: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .clase-ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .logo {
+      flex-direction: column;
+      align-items: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  }
