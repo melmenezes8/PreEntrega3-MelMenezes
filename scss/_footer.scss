@@ -1,32 +1,24 @@
 /*-----footer-----*/
-.bg-footer {
-    background-color: $base-color;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .bg-footerindex {
-    background-color: $base-color;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 800px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .redes {
-    text-align: end;
-    width: 100%;
-  }
-  
+
+.bg-footerindex {
+  background-color: $base-color;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  margin-top: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.redes {
+  text-align: end;
+  width: 100%;
+  direction: calc(100vh - (134px + 52px));
+}
+
 .redes {
   a {
     &:hover {
@@ -35,9 +27,10 @@
     }
   }
 }
-  .derechos {
-    justify-content: flex-start;
-    width: 100%;
-  }
-  
-  /*-----fin de footer-----*/
+
+.derechos {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/*-----fin de footer-----*/

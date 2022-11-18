@@ -15,27 +15,42 @@ body {
 
 /*----fondo de Home----*/
 .tacita {
-  background-image: url(../media/images/fondito.jpg);
+  background-image: url(../media/images/torrado2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*----fondo del shop----*/
 .cups {
-  background-image: url(../media/images/nescafe.jpg);
+  background-image: url(../media/images/finalm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*----fondo de sucursales----*/
 .company {
-  background-image: url(../media/images/4tipos.jpg);
+  background-image: url(../media/images/shopp2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*----fondo nosotros----*/
 .co-worker {
-  background-image: url(../media/images/worker.jpg);
+  background-image: url(../media/images/shopp2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*----fondo de capsule----*/
 .capsule {
   background-image: url(../media/images/cal2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*------header------*/
@@ -43,9 +58,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(104, 39, 9);
+  background-color: rgb(87, 46, 27);
   flex-direction: row;
   padding: 15px;
+  text-decoration: none;
 }
 
 .logo {
@@ -62,12 +78,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  list-style: none;
 }
 
 .clase-ul li {
   margin: 10px;
   font-family: "Volkhov", serif;
+  list-style: none;
 }
 
 .cctitle {
@@ -160,11 +176,9 @@ body {
   width: 320px;
 }
 
-.w_img {
-  width: 420px;
-}
-
 .border-card {
+  width: 630px;
+  height: 630px;
   background-color: #936639;
   border-top-left-radius: 26px;
   border-top-right-radius: 26px;
@@ -202,8 +216,8 @@ body {
 }
 
 .w-img {
-  width: 230px;
-  height: 230px;
+  width: 450px;
+  height: 450px;
 }
 
 /*-----GRIDS-----*/
@@ -219,25 +233,15 @@ body {
 
 /*----GRIDS-----*/
 /*-----footer-----*/
-.bg-footer {
-  background-color: rgb(104, 39, 9);
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .bg-footerindex {
-  background-color: rgb(104, 39, 9);
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
+  background-color: rgb(87, 46, 27);
   width: 100%;
-  margin-top: 800px;
+  height: 20px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  margin-top: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -245,6 +249,7 @@ body {
 .redes {
   text-align: end;
   width: 100%;
+  direction: calc(100vh - 186px);
 }
 
 .redes a:hover {
@@ -265,7 +270,6 @@ body {
 }
 
 /*------ fin de mis animaciones-----*/
-/*-------------responsive-----------------*/
 @media (max-width: 480px) {
   .clase-header {
     flex-direction: column;
